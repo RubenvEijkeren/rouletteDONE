@@ -1,0 +1,54 @@
+table {
+	color: white;
+	padding: 10px;
+}
+td, th {
+	border: 2px solid;
+	
+	font-weight: bold;
+	text-align: center;
+	font-size: 25px;
+}
+.class {
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+}
+.emptytd {
+	border: inherit;
+}
+.red {
+	background-color: red;
+}
+.black {
+	background-color: black;
+}
+.center {
+	align-self: center;
+}
+.bg {
+	height: 900px;
+	background-image: linear-gradient(to right, green, #00a872);
+}
+.wheel {
+	padding-left: 150px;
+	width: 300px;
+	height: 300px;
+	float: right;
+}
+img {
+	height: 40px;
+	width: 40px;
+}
+td a, th a {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	padding: 20px;
+}
+a:hover {
+	cursor: pointer;
+}
+span {
+	color: yellow;
+	font-weight: bold;
+}
